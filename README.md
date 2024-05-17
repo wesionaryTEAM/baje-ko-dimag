@@ -1,15 +1,30 @@
-#BAJE
+# BAJE
 
-Baje is an AI-powered assistant designed to help with project management and software development tasks. 
+Baje is an AI-powered assistant designed to help with project management and software development tasks.
 
-Baje can help young generation in fields like
+## Features
 
-Project specification and onboarding: It can create detailed project specifications including functional and non-functional requirements.Provide templates for requirement documents.Outline technical requirements, including system architecture, technology stack, and integration points.It can also Create a comprehensive welcome guide for new team members.
+### Project Specification and Onboarding
+- Create detailed project specifications, including functional and non-functional requirements.
+- Provide templates for requirement documents.
+- Outline technical requirements, including system architecture, technology stack, and integration points.
+- Create a comprehensive welcome guide for new team members.
 
-Project Management: Creating and updating project plans, tracking progress, and managing resources based on the resource provided.
+### Project Management
+- Create and update project plans.
+- Track progress.
+- Manage resources based on the resources provided.
 
-Software Development: Providing coding assistance, debugging help, and software documentation.
+### Software Development
+- Provide coding assistance.
+- Offer debugging help.
+- Generate software documentation.
 
-pip install - r requirements/txt
+## Installation and Running
 
+Create a .env file by copying sample.env and populate values
+
+To install the necessary dependencies, run:
+```sh
+pip install -r requirements.txt
 fastapi dev main.py
